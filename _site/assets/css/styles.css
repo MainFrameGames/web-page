@@ -2331,7 +2331,7 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 #brand { font-family: "Fira Code", monospace; }
 
-body { font-family: 'Roboto Light', sans-serif !important; background-color: #343a40; }
+body { font-family: 'Roboto Light', sans-serif !important; }
 
 h1, .h1 { padding-top: 5px; }
 
