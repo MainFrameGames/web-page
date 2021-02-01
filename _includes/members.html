@@ -1,0 +1,11 @@
+{% for item in site.data.members %}
+<div class="media">
+    <div class="media-left">
+        <img src="" class="media-object" style="width:60px">
+    </div>
+    <div class="media-body">
+        <h4 class="media-heading">{{item.name}}</h4>
+        <p>{{item.info}}}</p>
+    </div>
+</div>
+{% endfor %}

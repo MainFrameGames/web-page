@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/assets/css/styles.css"/>
     <title>{{page.title}}</title>
-
 </head>
 <body>
 {% include navigation.html %}
-<div class="container-xl bg-light h-100">
-{{ content }}
+<div class="container bg-light h-100">
+    <div class="row">
+        {{ content }}
+    </div>
 </div>
 </body>
 </html>
