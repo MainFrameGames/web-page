@@ -2,5 +2,31 @@
 layout: default
 title: Home
 ---
-{% include posts_list.html %}
-{% include banner.html %}
+
+<ul>
+
+    {% for game in site.games %}
+      
+        {{ game.content }}
+      
+    {% endfor %}
+
+</ul>
+
+<div class="row">
+    
+    <div class="col">
+
+        {% include posts_list.html %}
+
+    </div>
+
+    <div class="col">
+
+        {% include last_post_content.html %}
+
+    </div>
+
+</div>
+
+
